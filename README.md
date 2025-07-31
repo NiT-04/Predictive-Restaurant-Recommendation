@@ -4,19 +4,30 @@ Problem Statement:
 The objective of this assignment is to build a recommendation engine to predict what restaurants
 customers are most likely to order from given the customer location, restaurant information, and the
 customer order history.
+
 Dataset Overview:
+
 There are 9768 customers in the test set. These are the customers you will need to recommend a
 vendor to. Each customer can order from multiple locations (LOC_NUM).
 There are 34674 customers in the train set. Some of these customers have made orders at least one of
 100 vendors.
+
 Variable Definitions:
+
 Train Customers
+
 Information on the customers in the training set.
+
 'customer_id': Unique customer ID, used in train_locations and train_orders
+
 'gender': Customer gender
+
 'dob': Birth Year (if entered)
+
 'status' and 'verified': Account status
+
 'language': Chosen language
+
 'Created_at' and 'updated_at': dates when account was created/updated
 
 Train Locations
